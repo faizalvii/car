@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+></script>
+<script src="js/count.js"></script>
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  </head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light  sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SKODA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-lg-0 mb-2 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <!-- drop -->
+              <!-- Navbar dropdown -->
+            <li class="nav-item dropdown dropdown-hover position-static">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-mdb-toggle="dropdown" aria-expanded="false">
+                Mega menu
+              </a>
+              <!-- Dropdown menu -->
+              <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                border-top-right-radius: 0;
+                              ">
+    
+                <div class="container">
+                  <div class="row my-4">
+                    <div class="col-md-6 col-lg-3 mb-lg-0 mb-3 ">
+                      <div class="list-group list-group-flush">
+                        <a href="" class="list-group-item list-group-item-action">Lorem ipsum</a>
+                        <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
+                        <a href="" class="list-group-item list-group-item-action">Amet consectetur</a>
+                        <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
+                        <a href="" class="list-group-item list-group-item-action">Adipisicing elit</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-lg-0 mb-3 ">
+                      <div class="list-group list-group-flush">
+                        <a href="" class="list-group-item list-group-item-action">Explicabo voluptas</a>
+                        <a href="" class="list-group-item list-group-item-action">Perspiciatis quo</a>
+                        <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
+                        <a href="" class="list-group-item list-group-item-action">Laudantium maiores</a>
+                        <a href="" class="list-group-item list-group-item-action">Provident dolor</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                      <div class="list-group list-group-flush">
+                        <a href="" class="list-group-item list-group-item-action">Iste quaerato</a>
+                        <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
+                        <a href="" class="list-group-item list-group-item-action">Est iure</a>
+                        <a href="" class="list-group-item list-group-item-action">Praesentium</a>
+                        <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="list-group list-group-flush">
+                        <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
+                        <a href="" class="list-group-item list-group-item-action">Saepe</a>
+                        <a href="" class="list-group-item list-group-item-action">Vel alias</a>
+                        <a href="" class="list-group-item list-group-item-action">Sunt doloribus</a>
+                        <a href="" class="list-group-item list-group-item-action">Cum dolores</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          <li class="nav-item">
+                <a class="nav-link " href="#" >About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="p-2 search" id="myInput" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn1 " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- deatail -->
+
+      <section class="detail mt-4" data-aos="fade-up">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-5 col-md-12 mb-5">
+                      <!-- Carousel wrapper -->
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Slides -->
+    <div class="carousel-inner mb-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> 
+      <div class="carousel-item active">
+        <img src="img/thumbnail-1.jpg" class="d-block w-100" alt="..."  height="400px"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/thumbnail-2.jpg" class="d-block w-100"
+          alt="..." height="400px"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/thumbnail-3.jpg" class="d-block w-100" alt="..." height="400px" />
+      </div>
+    </div>
+    <!-- Slides -->
+  
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators"
+      data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
+      data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <!-- Controls -->
+  
+    <!-- Thumbnails -->
+    <div class="carousel-indicators" style="margin-bottom: -20px;">
+      <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1" style="width: 100px;">
+        <img class="d-block w-100"
+          src="img/thumbnail-1.jpg" class="img-fluid" />
+      </button>
+      <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
+        aria-label="Slide 2" style="width: 100px;">
+        <img class="d-block w-100"
+          src="img/thumbnail-2.jpg" class="img-fluid" />
+      </button>
+      <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
+        aria-label="Slide 3" style="width: 100px;">
+        <img class="d-block w-100"
+          src="img/thumbnail-3.jpg" class="img-fluid" />
+      </button>
+    </div>
+    <!-- Thumbnails -->
+  </div>
+  <!-- Carousel wrapper -->
+
+                  </div>
+                  <div class="col-lg-7 col-md-12 p-2">
+                      <div class="detail-heading">
+                          <h1>Colorful Pattern Shirts HD450</h1>
+                      </div>
+
+
+                      <div class="detail-brand position-relative p-2">
+                          <p>Brands: <a href="" style="color: #088178;">Gucci</a></p>
+                        <div class="rating2 text-end position-absolute top-0">
+                            <span style="font-size: 1rem; color: black;">review :</span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                      </div>
+
+                      <div class="detail-price p-1">
+                          <h2 style="color: #088178; letter-spacing: 1px;">$150.00 <span class="cut-price" style="font-size:1rem; color:black; text-decoration: line-through;">  $200.00</span><span style="font-size:1rem; color:black;">     25% OFF</span></h2>
+                      </div>
+                      
+                      <div class="detail-description p-2">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nostrum tenetur. Tempore dicta laboriosam at?</p>
+                          <p><i class="fa-solid fa-crown"></i> 1 Year Gucci Brand Warranty</p>
+                          <p><i class="fa-solid fa-arrows-rotate"></i> 30 Day Return Policy</p>
+                          <p><i class="fa-solid fa-briefcase"></i>  Cash on Delivery available</p>
+                      </div>
+
+                      <div class="detail-button p-2">
+                          <button class="btn4 p-1"><a href="">Add to Cart</a> </button>
+                      </div>
+
+
+
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- detail disciption 2 -->
+      <!-- <section class="tab-style">
+          <ul class="discription">
+              <li class="discription-item">
+                  <a class="discription-link" id="discription-tab" data-bs-toggle="tab" href="#discription">discription1</a>
+              </li>
+              <li class="discription-item">
+                <a class="discription-link" id="addition-tab" data-bs-toggle="tab" href="#addition">discription2</a>
+            </li>
+            <li class="discription-item">
+                <a class="discription-link" id="review-tab" data-bs-toggle="tab" href="#review">discription1</a>
+            </li>
+          </ul>
+          <div class="tab-content shop_info_tab entry-main-content">
+            <div class="tab-pane fade" id="discription">
+                description
+            </div>
+            <div class="tab-pane fade" id="addition">
+                description1
+            </div>
+            <div class="tab-pane fade active show" id="review">
+                
+                description2
+               
+            </div>
+        </div>
+      </section> -->
+      
+      
+      <!-- detail discription -->
+      <div class="tab-style3" data-aos="zoom-out-down">
+        <ul class="nav nav-tabs text-uppercase">
+            <li class="nav-item">
+                <a class="nav-link" id="Description-tab" data-bs-toggle="tab" href="#Description"><span class="disc"> Description</span> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="Additional-info-tab" data-bs-toggle="tab" href="#Additional-info">Additional info</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" id="Reviews-tab" data-bs-toggle="tab" href="#Reviews">Reviews (3)</a>
+            </li>
+        </ul>
+        <div class="tab-content shop_info_tab entry-main-content">
+            <div class="tab-pane fade" id="Description">
+                
+            </div>
+            <div class="tab-pane fade" id="Additional-info">
+                
+            </div>
+            <div class="tab-pane fade active show" id="Reviews">
+                
+                
+               
+            </div>
+        </div>
+    </div>
+      
+    
+   
+    
+    
+
+
+             <section class="relate mt-2">
+                 <div class="container mx-auto" data-aos="zoom-in-right">
+                     <div class="row">
+                         <div class="col-md-12 p-2">
+                             <div class="relate-head">
+                                 <h2 style="color: black;"><span style="border-bottom: 2px solid #088178;">You May A</span>lso Like:</h2>
+                             </div>
+                         </div>
+                     </div>
+                 <div class="row mt-2"  data-aos="zoom-in-left">
+                    <div class="col-lg-3 col-md-4 col-sm-6 m-auto d-flex justify-content-center">
+                        <div class="product-item">
+                          <div class="product-item-pic hover-zoom mt-1">
+                            <img src="img/product-1.jpg" alt="" class="img-fuid" width="200px" height="200px">
+                            <div class="label new">NEW</div>
+                            <div class="product-hover">
+                              <img src="img/product-2.jpg" alt="" class="img-fuild" width="200px" height="200px">
+                              <div class="label new">NEW</div>
+                              <!-- <button title="Quick Shop" class="btn btn-secondary"><i class="fa fa-eye"></i></button>
+                              <button title="ADD To WishList" class="btn btn-secondary"><i class="fa fa-regular fa-heart"></i></button>
+                              <button title="ADD To Cart" class="btn btn-secondary"><i class="fa fa-shopping-cart"></i></button> -->
+                            </div>
+                          </div>
+                          <div class="product-item-text text-center">
+                            <h6><a href="">Blazzer tweed button</a></h6>
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="product-price">
+                             <span class="line">59$</span> 49$
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-sm-6 m-auto d-flex justify-content-center">
+                        <div class="product-item">
+                          <div class="product-item-pic hover-zoom mt-1">
+                            <img src="img/product-1.jpg" alt="" class="img-fuid" width="200px" height="200px">
+                            <div class="label new">NEW</div>
+                            <div class="product-hover">
+                              <img src="img/product-2.jpg" alt="" class="img-fuild" width="200px" height="200px">
+                              <div class="label new">NEW</div>
+                              <!-- <button title="Quick Shop" class="btn btn-secondary"><i class="fa fa-eye"></i></button>
+                              <button title="ADD To WishList" class="btn btn-secondary"><i class="fa fa-regular fa-heart"></i></button>
+                              <button title="ADD To Cart" class="btn btn-secondary"><i class="fa fa-shopping-cart"></i></button> -->
+                            </div>
+                          </div>
+                          <div class="product-item-text text-center">
+                            <h6><a href="">Blazzer tweed button</a></h6>
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="product-price">
+                             <span class="line">59$</span> 49$
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-sm-6 m-auto d-flex justify-content-center">
+                        <div class="product-item">
+                          <div class="product-item-pic hover-zoom mt-1">
+                            <img src="img/product-1.jpg" alt="" class="img-fuid" width="200px" height="200px">
+                            <div class="label new">NEW</div>
+                            <div class="product-hover">
+                              <img src="img/product-2.jpg" alt="" class="img-fuild" width="200px" height="200px">
+                              <div class="label new">NEW</div>
+                              <!-- <button title="Quick Shop" class="btn btn-secondary"><i class="fa fa-eye"></i></button>
+                              <button title="ADD To WishList" class="btn btn-secondary"><i class="fa fa-regular fa-heart"></i></button>
+                              <button title="ADD To Cart" class="btn btn-secondary"><i class="fa fa-shopping-cart"></i></button> -->
+                            </div>
+                          </div>
+                          <div class="product-item-text text-center">
+                            <h6><a href="">Blazzer tweed button</a></h6>
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="product-price">
+                             <span class="line">59$</span> 49$
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    
+                    <div class="col-lg-3 col-md-4 col-sm-6 m-auto d-flex justify-content-center">
+                        <div class="product-item">
+                          <div class="product-item-pic hover-zoom mt-1">
+                            <img src="img/product-1.jpg" alt="" class="img-fuid" width="200px" height="200px">
+                            <div class="label new">NEW</div>
+                            <div class="product-hover">
+                              <img src="img/product-2.jpg" alt="" class="img-fuild" width="200px" height="200px">
+                              <div class="label new">NEW</div>
+                              <!-- <button title="Quick Shop" class="btn btn-secondary"><i class="fa fa-eye"></i></button>
+                              <button title="ADD To WishList" class="btn btn-secondary"><i class="fa fa-regular fa-heart"></i></button>
+                              <button title="ADD To Cart" class="btn btn-secondary"><i class="fa fa-shopping-cart"></i></button> -->
+                            </div>
+                          </div>
+                          <div class="product-item-text text-center">
+                            <h6><a href="">Blazzer tweed button</a></h6>
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="product-price">
+                             <span class="line">59$</span> 49$
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                </div>
+             </section>
+
+             <!-- banner -->
+             <section class="banner"  data-aos="zoom-in-up">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-md-12">
+                            <div class="banner-img position-relative overflow-hidden">
+                                <img src="img/pro-banner.png" alt="Yosemite National Park" height="300px" class="img-fluid"/>
+                                <div class="container-fluid">
+                                <div class="banner-info-inner position-absolute">
+                                  
+                                    <p class="banner-title text-uppercase font-weight-bold fs-5">Make <span style="color: #6df3ea;">Your</span>  Fashion</p>
+          
+                                  </div>
+                                </div>
+                              </div>
+                             
+                     </div>
+                 </div>
+             </section>
+    
+    <!-- Footer -->
+<footer class="text-center text-lg-start  footer" data-aos="flip-down">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
